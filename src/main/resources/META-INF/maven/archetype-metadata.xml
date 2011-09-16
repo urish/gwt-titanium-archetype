@@ -16,9 +16,14 @@
 
 <archetype-descriptor
 	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
-	name="zampona"
+	name="gwt-titanium"
 	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<requiredProperties>
+		<requiredProperty key="randomGuid">
+			<defaultValue>12345678-1234-1234-1234-12345678abcd</defaultValue>
+		</requiredProperty>
+	</requiredProperties>
 	<fileSets>
 		<fileSet encoding="UTF-8">
 			<directory></directory>
@@ -36,6 +41,7 @@
 			<directory>src/main/java</directory>
 			<includes>
 				<include>**/*.java</include>
+				<include>**/*.xml</include>
 			</includes>
 		</fileSet>
 		<fileSet filtered="true" encoding="UTF-8">
