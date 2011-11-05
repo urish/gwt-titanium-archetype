@@ -13,8 +13,8 @@
 		<iphonejava.module>${artifactId}</iphonejava.module>
 
 		<gwt.version>2.3.0</gwt.version>
-		<gwt_titanium.version>0.2.1-SNAPSHOT</gwt_titanium.version>
-		<titanium.sdk.version>1.7.2</titanium.sdk.version>
+		<gwt_titanium.version>0.2.2-SNAPSHOT</gwt_titanium.version>
+		<titanium.sdk.version>1.7.5</titanium.sdk.version>
 		<titanium.platform>iphone</titanium.platform>
 	</properties>
 
